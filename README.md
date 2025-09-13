@@ -156,7 +156,18 @@ Listen and Update
 - Base Weapon (handles damage detection)
   - Hero Weapon (weapon data unique to player)
 
-### Pawn UI Structure
+## Enemy AI
+
+### Reciprocal Velocity Obstacle Avoidance
+
+- Pushes agents away from each other to avoid collisions
+- Ignores obstacles and navmesh
+
+### Detour Crowd Avoidance
+
+- Aware of other agents and obstacles
+- Alters velocity for new path
+- Respects navmesh
 
 ## Setups
 

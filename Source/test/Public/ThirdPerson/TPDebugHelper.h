@@ -11,7 +11,8 @@ namespace Debug
 		}
 	}
 
-	static void Print(const FString& FloatTitle, float FloatValueToPrint, const FColor& Color = FColor::MakeRandomColor(), int32 InKey = -1)
+	static void Print(const FString& FloatTitle, float FloatValueToPrint,
+	                  const FColor& Color = FColor::MakeRandomColor(), int32 InKey = -1)
 	{
 		if (GEngine)
 		{
